@@ -257,7 +257,7 @@ dc2c_distance        -4.569e-05   1.33e-05     -3.445      0.001   -7.17e-05   -
 - **Delivery Time, Gender, City, Product Retail Price, Revenue**: These factors do not have a statistically significant impact on the likelihood of a return based on this model.
 
 ## SHAP Values Interpretation
-![](Images/shap.png)
+![](Images/shap_summary_class_1.png)
 
 | Feature                 | Mean Absolute SHAP Value |
 |-------------------------|--------------------------|
