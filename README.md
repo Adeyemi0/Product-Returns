@@ -63,14 +63,15 @@ This analysis reveals that out of 2,612 unique customers, there were 3,113 total
 
 
 - **Number of Unique Customers:** 2,612
-- **Total Orders:** 3,113
-- **Total Returns:** 6,008
-- **Total Revenue:** \$649,661.10
-- **Total Items Sold:** 40,732
+- **Total Orders:** 3,231
+- **Total Returns:** 6,028
+- **Total Revenue:** \$678,682.4154417012
+- **Total Items Sold:** 40,085
 
 These metrics provide a foundational understanding of the customer base and transactional volume. Notably, the number of returns exceeds the number of orders, indicating that multiple items per order are being returned.
 
 ### Return Rates and Purchase Behavior
+![](Images/summary.png)
 
 - **Return Rate:** 15.04%
 - **Repeat Purchase Rate:** 15.84%
@@ -81,6 +82,7 @@ These metrics provide a foundational understanding of the customer base and tran
 A return rate of approximately 15% is significant and contributes to a substantial revenue loss of over a quarter of total sales. The repeat purchase rate suggests that while some customers are returning, a smaller fraction are making multiple purchases, potentially indicating issues with customer satisfaction or product quality.
 
 ### Returns by Age Group and Gender
+![](Images/returnsbyagegroupandgender.png)
 
 | **Age Group** | **Female Returns** | **Male Returns** |
 |---------------|--------------------|------------------|
@@ -98,6 +100,7 @@ A return rate of approximately 15% is significant and contributes to a substanti
 - Younger age groups (<18 and 18-24) show substantial return activity, indicating potential issues with product suitability or expectations.
 
 ### Returns by Product Group and Gender
+![](Images/returnsbyproductcategoriesandgender.png)
 
 | **Product Group**                   | **Female Returns** | **Male Returns** |
 |-------------------------------------|--------------------|------------------|
@@ -135,6 +138,7 @@ A return rate of approximately 15% is significant and contributes to a substanti
 - **Pants**, **Socks**, and **Underwear** are significant return categories for males, potentially highlighting fit or style preferences.
 
 ### Returns by Product Group and Age Groups
+![](Images/returnsbyproductcatandagegroups.png)
 
 #### Accessories
 - Highest returns in 18-24 and 55-64 age groups.
@@ -253,6 +257,7 @@ dc2c_distance        -4.569e-05   1.33e-05     -3.445      0.001   -7.17e-05   -
 - **Delivery Time, Gender, City, Product Retail Price, Revenue**: These factors do not have a statistically significant impact on the likelihood of a return based on this model.
 
 ## SHAP Values Interpretation
+![](Images/shap_summary_class_1.png)
 
 | Feature                 | Mean Absolute SHAP Value |
 |-------------------------|--------------------------|
