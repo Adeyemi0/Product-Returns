@@ -10,7 +10,7 @@
   - [Returns by Age Group and Gender](#returns-by-age-group-and-gender)
   - [Returns by Product Group and Gender](#returns-by-product-group-and-gender)
   - [Returns by Product Group and Age Groups](#returns-by-product-group-and-age-groups)
-  - [Logistic Regression Analysis](#logistic-regression-analysis)
+  - [Logit Regression Results](#logit-regression-result)
   - [SHAP Values Interpretation](#shap-values-interpretation)
 - [Recommendations](#recommendations)
 - [Limitations and Further Studies](#limitations-and-further-studies)
@@ -210,33 +210,21 @@ A return rate of approximately 15% is significant and contributes to a substanti
 - Certain product categories show age-specific return patterns, suggesting differing preferences or sizing issues.
 - Middle-aged groups (25-44) exhibit higher return rates across multiple product categories, indicating potential areas for targeted improvements.
 
-### Logistic Regression Analysis
+### Logit Regression Results
 
-Optimization terminated successfully.
-         Current function value: 0.586855
-         Iterations: 5
-                           Logit Regression Results                           
-===============================================================================
-Dep. Variable:          status_binary   No. Observations:                21,947
-Model:                          Logit   Df Residuals:                    21,937
-Method:                           MLE   Df Model:                             9
-Date:                Sat, 05 Oct 2024   Pseudo R-squ.:                0.001676
-Time:                        15:27:20   Log-Likelihood:                -12,880.
-converged:                       True   LL-Null:                       -12,901.
-Covariance Type:            nonrobust   LLR p-value:                 1.940e-06
-=======================================================================================
-                       coef    std err          z      P>|z|      [0.025      0.975]
-----------------------------------------------------------------------------------------
-const               -0.6339      0.070     -8.996      0.000      -0.772      -0.496
-delivery_time        -3.876e-06   7.27e-06     -0.533      0.594   -1.81e-05    1.04e-05
-age                   -0.0028      0.001     -3.169      0.002      -0.005      -0.001
-gender                -0.0305      0.031     -0.984      0.325      -0.091       0.030
-city                 -3.774e-06    4.3e-05     -0.088      0.930    -8.8e-05    8.04e-05
-product_category      -0.0048      0.002     -2.412      0.016      -0.009      -0.001
-product_retail_price   0.0013      0.001      0.891      0.373      -0.002       0.004
-num_of_item           -0.0422      0.015     -2.890      0.004      -0.071      -0.014
-revenue               -0.0017      0.003     -0.641      0.522      -0.007       0.004
-dc2c_distance        -4.569e-05   1.33e-05     -3.445      0.001   -7.17e-05   -1.97e-05
+| Parameter             | Coefficient | Std. Error | z-Value | P>|z|  | [0.025 | 0.975] |
+|-----------------------|-------------|------------|---------|------|--------|---------|
+| const                 | -0.6339     | 0.070      | -8.996  | 0.000| -0.772 | -0.496  |
+| delivery_time         | -3.876e-06  | 7.27e-06   | -0.533  | 0.594| -1.81e-05 | 1.04e-05 |
+| age                   | -0.0028     | 0.001      | -3.169  | 0.002| -0.005 | -0.001  |
+| gender                | -0.0305     | 0.031      | -0.984  | 0.325| -0.091 | 0.030   |
+| city                  | -3.774e-06  | 4.3e-05    | -0.088  | 0.930| -8.8e-05 | 8.04e-05 |
+| product_category      | -0.0048     | 0.002      | -2.412  | 0.016| -0.009 | -0.001  |
+| product_retail_price  | 0.0013      | 0.001      | 0.891   | 0.373| -0.002 | 0.004   |
+| num_of_item           | -0.0422     | 0.015      | -2.890  | 0.004| -0.071 | -0.014  |
+| revenue               | -0.0017     | 0.003      | -0.641  | 0.522| -0.007 | 0.004   |
+| dc2c_distance         | -4.569e-05  | 1.33e-05   | -3.445  | 0.001| -7.17e-05 | -1.97e-05 |
+
 
 
 
