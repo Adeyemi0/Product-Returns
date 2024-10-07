@@ -238,7 +238,7 @@ product_retail_price   0.0013      0.001      0.891      0.373      -0.002      
 num_of_item           -0.0422      0.015     -2.890      0.004      -0.071      -0.014
 revenue               -0.0017      0.003     -0.641      0.522      -0.007       0.004
 dc2c_distance        -4.569e-05   1.33e-05     -3.445      0.001   -7.17e-05   -1.97e-05
-
+```
 # Key Findings
 
 - **Age**: Negatively associated with the likelihood of a return (**coef = -0.0028, p < 0.01**). Older customers are slightly less likely to return products.
