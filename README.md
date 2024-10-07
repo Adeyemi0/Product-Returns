@@ -59,6 +59,8 @@ This analysis reveals that out of 2,612 unique customers, there were 3,113 total
 ## Insight Deep Dive
 
 ### Overall Metrics
+![](images/overall.png)
+
 
 - **Number of Unique Customers:** 2,612
 - **Total Orders:** 3,113
