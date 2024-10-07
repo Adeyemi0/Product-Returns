@@ -212,7 +212,6 @@ A return rate of approximately 15% is significant and contributes to a substanti
 
 ### Logistic Regression Analysis
 
-```plaintext
 Optimization terminated successfully.
          Current function value: 0.586855
          Iterations: 5
@@ -237,7 +236,8 @@ product_category      -0.0048      0.002     -2.412      0.016      -0.009      
 product_retail_price   0.0013      0.001      0.891      0.373      -0.002       0.004
 num_of_item           -0.0422      0.015     -2.890      0.004      -0.071      -0.014
 revenue               -0.0017      0.003     -0.641      0.522      -0.007       0.004
-dc2c_distance        -4.569e-05   1.33e-05     -3.445      0.001   -7.17e-05   -1.97e-05```
+dc2c_distance        -4.569e-05   1.33e-05     -3.445      0.001   -7.17e-05   -1.97e-05
+
 
 
 # Key Findings
