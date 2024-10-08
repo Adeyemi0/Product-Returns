@@ -1,4 +1,5 @@
 # Customer Orders and Returns Analysis
+![](Images/returns.jpg)
 
 ## Table of Contents
 - [Background and Overview](#background-and-overview)
