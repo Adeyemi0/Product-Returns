@@ -55,7 +55,7 @@ Understanding how customer behave is critical for enhancing satisfaction, optimi
 
 ## Executive Summary
 
-This analysis reveals that out of 2,612 unique customers, there were 3,113 total orders resulting in 6,008 returns. This high return rate, approximately 15%, indicates a significant revenue loss estimated at 28% due to returned items. Additionally, the repeat purchase rate stands at around 16%, suggesting opportunities to enhance customer retention. The data also highlights specific demographics and product categories with higher return rates, providing targeted areas for improvement.
+This analysis reveals that out of 2,740 unique customers, there were 3,274 total orders resulting in 6,789 returns. This high return rate, approximately 15%, indicates a significant revenue loss estimated at 28% due to returned items. Additionally, the repeat purchase rate stands at around 16%, suggesting opportunities to enhance customer retention. The data also highlights specific demographics and product categories with higher return rates, providing targeted areas for improvement.
 
 ## Insight Deep Dive
 
@@ -63,11 +63,11 @@ This analysis reveals that out of 2,612 unique customers, there were 3,113 total
 ![](Images/overall.png)
 
 
-- **Number of Unique Customers:** 2,612
-- **Total Orders:** 3,231
-- **Total Returns:** 6,028
-- **Total Revenue:** \$678,682.4154417012
-- **Total Items Sold:** 40,085
+- **Number of Unique Customers:** 2,740
+- **Total Orders:** 3,274
+- **Total Returns:** 6,789
+- **Total Revenue:** \$670,850.8489163402
+- **Total Items Sold:** 42,106
 
 These metrics provide a foundational understanding of the customer base and transactional volume. Notably, the number of returns exceeds the number of orders, indicating that multiple items per order are being returned.
 
