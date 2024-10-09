@@ -72,7 +72,7 @@ This analysis reveals that out of 2,740 unique customers, there were 3,274 total
 These metrics provide a foundational understanding of the customer base and transactional volume. Notably, the number of returns exceeds the number of orders, indicating that multiple items per order are being returned.
 
 ### Return Rates and Purchase Behavior
-![](Images/summary.png)
+![](Images/summaryy.png)
 
 - **Return Rate:** 15.04%
 - **Repeat Purchase Rate:** 15.84%
